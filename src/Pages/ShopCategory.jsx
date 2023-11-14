@@ -1,11 +1,11 @@
 import React from 'react'
 
-function LoginSignup() {
+function ShopCategory() {
   return (
     <div>
-
+        
     </div>
   )
 }
 
-export default LoginSignup
+export default ShopCategory
