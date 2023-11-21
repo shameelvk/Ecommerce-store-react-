@@ -2,6 +2,9 @@ import React from 'react'
 import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png'
 import star_dull_icon from '../Assets/star_dull_icon.png'
+
+
+
 const ProductDisplay = (props) => {
     const {product}=props
   return (
@@ -18,7 +21,7 @@ const ProductDisplay = (props) => {
             </div>
 
         </div>
-        <div className="c">
+        <div className="productdisplay-right">
             <h1>{product.name}</h1>
             <div className="productdisplay-right-star">
                 <img src={star_icon} alt="" />
@@ -37,7 +40,7 @@ const ProductDisplay = (props) => {
             </div>
             <div className="productdisplay-right-size">
                 <h1>Select Size</h1>
-                <div className="productdisplay-right-size">
+                <div className="productdisplay-right-sizes">
                     <div>S</div>
                     <div>M</div>
                     <div>L</div>
@@ -47,8 +50,8 @@ const ProductDisplay = (props) => {
 
             </div>
             <button>ADD TO CART</button>
-            <p className='productdisplay-right-category'><span>Category :</span>Women , T-Shirt, Crop Top</p>
-            <p className='productdisplay-right-category'><span>Tags :</span>Modern , Latest</p>
+            <p className='productdisplay-right-category'><span>Category :</span> Women , T-Shirt, Crop Top</p>
+            <p className='productdisplay-right-category'><span>Tags :</span> Modern , Latest</p>
 
         </div>
     </div>
